@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "909186627055",
+    "project_id": "juego-casillas-colores2",
+    "storage_bucket": "juego-casillas-colores2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909186627055:android:d7ffa789fce006e99a321a",
+        "android_client_info": {
+          "package_name": "com.manlorstudios.juego_casillas_colores2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHZXjP1BmaTnO5Fh1qlMsbcZqxNEOV6dc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

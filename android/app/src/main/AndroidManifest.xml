@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.manlorstudios.juego_casillas_colores2">
+
+    <application
+            android:name="MyApp"
+            android:icon="@mipmap/ic_launcher"
+            android:label="TubeSoft"
+            android:hardwareAccelerated="true"
+            android:theme="@style/LaunchTheme">
+        <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
+
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-5100008102995647~4429559933"/>
+
+
+        <activity
+                android:name=".MainActivity"
+                android:exported="true"
+                android:launchMode="singleTop"
+                android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+                android:windowSoftInputMode="adjustResize"
+                android:taskAffinity="">
+
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Don't delete the meta-data below.
+             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <meta-data
+                android:name="flutterEmbedding"
+                android:value="2" />
+
+        <provider
+                android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+                android:authorities="${applicationId}.MobileAdsInitProvider"
+                android:exported="false"
+                tools:replace="android:authorities" />
+
+
+
+    </application>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT" />
+            <data android:mimeType="text/plain" />
+        </intent>
+    </queries>
+</manifest>

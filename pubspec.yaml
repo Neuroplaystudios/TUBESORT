@@ -1,0 +1,55 @@
+name: juego_casillas_colores2
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  uuid: ^4.0.0
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  google_mobile_ads: ^6.0.0
+  sentry: ^8.14.2
+  audioplayers: ^5.0.1
+  provider: ^6.1.1
+  confetti: ^0.7.0
+  flutter_animate: ^4.1.1
+  intl: ^0.19.0
+  easy_localization: ^3.0.0
+  cloud_firestore: ^4.13.1
+  firebase_core: ^2.25.4
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner:
+  flutter_gen:
+
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/sounds/background_music.mp3
+    - assets/sounds/select.mp3
+    - assets/sounds/move.mp3
+    - assets/sounds/error.mp3
+    - assets/sounds/undo.mp3
+    - assets/sounds/win.mp3
+    - assets/title/titletubesort.png
+    - assets/translations/en.json
+    - assets/translations/es.json
+    - assets/translations/fr.json
+    - assets/translations/ru.json
+    - assets/translations/zh.json
+    - assets/images/wood_texture.png
